@@ -36,7 +36,7 @@ Host Adapters
 Clone and install globally:
 
 ```bash
-git clone https://github.com/LightDevCoder/agent-config.git
+git clone https://github.com/light-cheng/agent-config.git
 cd agent-config
 npm ci
 npm run build
@@ -66,11 +66,11 @@ agent-config setup --apply --yes
 agent-config setup --check
 ```
 
-### Relationship with `LightDevCoder/skills`
+### Relationship with `light-cheng/skills`
 
-- **Skill (`agent-config`):** Installed from [LightDevCoder/skills](https://github.com/LightDevCoder/skills):
+- **Skill (`agent-config`):** Installed from [light-cheng/skills](https://github.com/light-cheng/skills):
   ```bash
-  npx skills add LightDevCoder/skills --skill agent-config
+  npx skills add light-cheng/skills --skill agent-config
   ```
 - **Companion MCP Runtime (this repository):** Provides optional host inspection, profile persistence, configuration preview/apply, and health verification. Without the companion, the Skill remains fully functional in session-local, plan-only mode.
 
